@@ -1,0 +1,22 @@
+{
+  "name": "change-me",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "nps test",
+    "lint": "standard --verbose | snazzy",
+    "nps": "nps"
+  },
+  "author": "George <7jagjag@gmail.com>",
+  "license": "MIT",
+  "nyc": {
+    "include": [
+      "lib",
+      "helper"
+    ]
+  },
+  dependencies: {
+  }
+}
